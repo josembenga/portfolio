@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <meta name="description"
+    content="Sou José Mbenga desenvolvedor Web. Estou aqui para lhe criar o melhor site, assim como Web, Mobile ou Desktop." />
+  <meta name="keywords" content="JM, jm, Mbenga, José Mbenga" />
+  <meta name="author" content="José Mbenga M. da Costa" />
+  <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title"
+    content="J.Mbenga - Estou aqui para lhe criar o melhor site, assim como Web, Mobile ou Desktop." />
+  <meta property="og:description" content="Sou José Mbenga desenvolvedor Web." />
+  <meta property="og:url" content="http://localhost/portfolio/" />
+  <meta property="og:site_name" content="J.Mbenga" />
+  <title>Portfolio | J.Mbenga » Conctato</title>
+  <link rel="canonical" href="http://localhost/portfolio/" />
+  <link rel="icon" href="img/logo-jm.png" />
+  <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/dashboard/" />
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style-portfolio.css" />
+  <link rel="stylesheet" href="css/@media-queries.css">
+</head>
+
+<body>
+
+  <main>
+    <header class="header">
+      <!-- Area de navegacao com os links (navbar) -->
+      <nav id="area-nav" class="navbar navbar-inverse navbar-fixed">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button id="botao-nav" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="logotipo" href="index.html"><strong class="fas fa-copy slogan">
+                &lt;JM&gt;
+              </strong>
+              &nbsp;Developer</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul id="navbar-sec" class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Início </a></li>
+              <li><a href="#sobre-mim">Sobre </a></li>
+              <li><a href="projeto.html">Projetos</a></li>
+              <li><a class="active" href="contactar.html">Contactar</a></li>
+              <li><a href="mailto:josembengadacosta@gmail.com" class="box">josembengadacosta@gmail.com</a></li>
+          </div>
+          <li class="dropdown text-left">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Pt-Br<img src="img/br.png" alt="" width="32px"><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="contactar.html">Português</a></li>
+              <li><a href="fr/contact.html">Francês</a></li>
+              <li><a href="en/contact.html">Inglês</a></li>
+
+            </ul>
+          </li>
+        </div>
+        </div>
+      </nav>
+    </header>
+    <section id="showcase">
+      <div class="container">
+        <div class="container-fluid">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-md-8 p-4 align-self-center">
+                <hr class="linha" />
+                <div class="form">
+                  <form action="mailto:josembengadacosta@gmail.com" id="form" class="form" onsubmit="return validacao()"
+                    accept-charset="utf-8">
+                    <div class="form-group" id="fundo">
+
+
+                      <h3 class="display-4 text-contacto">Entre em contacto</h3>
+                      <div class="control-form">
+
+                        <label for="name_user"><span>*</span> Nome </label>
+                        <input type="text" id="name_user" maxlength="25" autofocus class="form-control" name="name_user"
+                          placeholder="Seu nome completo">
+
+                        <small>Erro message</small>
+
+                      </div>
+                      <br>
+
+                      <div class="control-form">
+                        <label for="email"><span>*</span> E-mail </label>
+                        <input type="email" autocapitalize="" class="form-control" id="email" name="email"
+                          placeholder="Seu e-mail">
+
+                        <small>Erro message</small>
+                      </div>
+
+                      <br>
+
+                      <label for="tel"> Telefone (<span>opcional</span>) </label>
+                      <input type="tel" class="form-control" name="tel" id="telefone" maxlength="18"
+                        placeholder="Seu telefone">
+
+                      <br>
+                      <div class="control-form">
+                        <label for="sms"><span>*</span> Assunto </label>
+                        <textarea name="sms" id="sms" cols="60" rows="5" placeholder="Sua mensagem"></textarea>
+                        <div><small>Erro message</small></div>
+                        <br>
+                      </div>
+
+
+                      <button class="btn" type="submit">Enviar mensagem</button>
+                      <div class="wearing">
+                        <span class="aviso"> <span>*</span> campo obrigatória</span>
+                      </div>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-4 p-9" id="perfil-rede">
+                <a href="img/viewmyprofile.jpg">
+                  <img class="img-thumbnail-custom img-circle img-responsive img img1" src="img/myprofile.jpg" alt="" />
+                </a>
+
+                <aside class="links-redes">
+                  <h4 class="display-4 text-title-exp"> Redes Socias</h4>
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/josembengadacosta" target="_blank" rel="external"><img
+                          src="icons/facebook.svg" alt="" class="redes" /></a>
+                    </li>
+                    <li>
+                      <a href="https://www.whatsapp.com/" target="_blank" rel="external"><img src="icons/whatsapp.svg"
+                          alt="" class="redes" /></a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/josembenga/josembenga/" target="_blank" rel="external"><img
+                          src="icons/github.svg" alt="" class="redes" /></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/jose-mbenga-da-costa/" target="_blank" rel="external"><img
+                          src="icons/linkedin.svg" alt="" class="redes" /></a>
+                    </li>
+                  </ul>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="aboutme">
+
+      <h3 class="display-4 text-title-exp" id="sobre-mim">Sobre</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere tempora laboriosam mollitia natus, nostrum
+        doloribus enim, quae sit officiis quasi consequatur vitae dolor labore, incidunt architecto distinctio expedita
+        quisquam debitis.</p>
+      <a class="btn" href="descarregar/local.zip" id="btn-about" download="download/local.zip">
+        Sobre mim &nbsp;
+        <span class="glyphicon glyphicon-download-alt icon-about"></span>
+      </a>
+      <hr>
+    </section>
+
+    <section class="div">
+      <footer class="footer">
+
+
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/josembengadacosta" target="_blank" rel="external"><img
+                src="icons/facebook.svg" alt="" class="redes" /></a>
+          </li>
+          <li>
+            <a href="https://www.whatsapp.com/" target="_blank" rel="external"><img src="icons/whatsapp.svg" alt=""
+                class="redes" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/josembenga/josembenga/" target="_blank" rel="external"><img
+                src="icons/github.svg" alt="" class="redes" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jose-mbenga-da-costa/" target="_blank" rel="external"><img
+                src="icons/linkedin.svg" alt="" class="redes" /></a>
+          </li>
+        </ul>
+        <p>Todos os direitos reservados - José Mbenga</p>
+        <p> &copy; Copyright 2023</p>
+      </footer>
+    </section>
+  </main>
+  <div class="alert alert-danger text-center dispotivos" role="alert">
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    <span class="sr-only">Error:</span>Não posso apresentar nenhum conteúdo, porque o ecrã do seu dispositivo é muito
+    pequeno!
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/validacao.js"></script>
+
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+
+</html>
